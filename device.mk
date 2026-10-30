@@ -507,10 +507,6 @@ PRODUCT_COPY_FILES += \
 # VENDOR API
 BOARD_SHIPPING_API_LEVEL := 31
 
-# Vendor service manager
-PRODUCT_PACKAGES += \
-    vndservicemanager
-
 # Verified boot
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
