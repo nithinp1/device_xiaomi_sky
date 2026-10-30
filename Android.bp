@@ -23,3 +23,9 @@ install_symlink {
     symlink_target: "/vendor/etc/wifi/adrastea/WCNSS_qcom_cfg.ini",
     vendor: true,
 }
+
+cc_library_shared {
+    name: "libheif",
+    system_ext_specific: true,
+    vendor_available: true,
+}
