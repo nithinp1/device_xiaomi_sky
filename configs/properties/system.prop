@@ -43,3 +43,13 @@ ro.infinity.battery=5000 mAh
 ro.infinity.display=1080 x 2460 , 90Hz
 ro.infinity.camera=50MP + 8MP + 2MP
 ro.product.marketname=Redmi 12 5G
+
+# Play Integrity & Root Detection Bypass (ProjectInfinity-X v4.0)
+ro.build.type=user
+ro.debuggable=0
+persist.sys.usb.config=adb
+ro.adb.secure=1
+ro.boot.verifiedbootstate=green
+ro.boot.flash.locked=1
+ro.boot.veritymode=enforcing
+ro.hardware.keystore=keymint
