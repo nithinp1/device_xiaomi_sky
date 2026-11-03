@@ -134,3 +134,6 @@ persist.vendor.sensors.ins_debug u:object_r:vendor_mi_ins_prop:s0
 # Thermal
 vendor.sys.thermal.data.path u:object_r:vendor_thermal_normal_prop:s0
 
+# Fingerprint
+sys.fp.vendor u:object_r:vendor_fingerprint_prop:s0
+gf.debug. u:object_r:vendor_fingerprint_prop:s0
