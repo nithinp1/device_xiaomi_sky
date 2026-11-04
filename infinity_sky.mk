@@ -17,6 +17,9 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 $(call inherit-product, vendor/infinity/config/BoardConfigReservedSize.mk)
 
+# Include the Android 17 FCM 6 matrix for devices shipping with FCM 6
+PRODUCT_PACKAGES += framework_compatibility_matrix.6.android17.xml
+
 # Inherit device configurations
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
